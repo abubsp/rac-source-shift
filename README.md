@@ -20,6 +20,7 @@ Download `compressive_strength_database.xlsx` and `slump_database.xlsx` and plac
 | `exp5_curve.py`, `exp10_curve2.py` | Learning curves over the number of training sources | 3.9, 4.12 |
 | `exp6_adaptive.py`, `exp8_conformal_more.py` | Novelty-normalised, error-model and grouped CV+ conformal intervals | 3.10, 4.13 |
 | `exp7_learners.py`, `ana7.py`, `exp9_other_conformal.py` | Other learners (RF, HGB, XGBoost, LightGBM) | 4.14 |
+| `reproduce_analyses.py`, `REPRODUCTION.md`, `results_*.json` | Re-implementation of Table 3, LOSO, permutation importance, joint modelling (Table 6), conformal schemes (Table 5), paired analysis and partial dependence; agreement with the manuscript | 3.5-3.8, 4.1-4.7 |
 | `*.json`, `*.csv`, `*.png` | Result files (XGBoost/LightGBM/TreeSHAP JSON; CSV/JSON outputs of the analysis scripts; Figure 8) | Tables 7-14, Figure 8 |
 
 ## Running
