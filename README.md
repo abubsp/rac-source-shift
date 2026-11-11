@@ -36,3 +36,11 @@ All random seeds are fixed in the scripts; runs were single-threaded.
 
 ## Citation
 Please cite the manuscript and the data set. This repository is archived at Zenodo: https://doi.org/10.5281/zenodo.24104984
+
+## Added in v1.1.0 (Sections 3.11-3.12, 4.15-4.16)
+| File(s) | Content |
+|---|---|
+| `exp11_anchor.py`, `ana11.py` | Source-offset adaptation from control mixtures (shrunken offset, adapted conformal intervals); `python exp11_anchor.py CS 20`, `python exp11_anchor.py SL 20`, then `python ana11.py` |
+| `exp12_sim.py` | Simulation of random-CV optimism vs. target ICC and input clustering; `python exp12_sim.py 1.0` (also 0.3, 0.1) |
+| `exp13_svr.py` | SVR tuned inside the folds (nested, source-grouped); `python exp13_svr.py CS` (also SL) |
+| `ana11.json`, `ana11_width.json`, `exp12_w*.csv`, `exp13_*.json`, `fig10_anchor.png`, `fig11_sim.png` | Results and figures |
